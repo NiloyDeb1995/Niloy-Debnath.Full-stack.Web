@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+    background-color: #1C82FA;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px;
+    height: 64px;
+    
+}
+.navigation {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 110px 140px;
+}
+.heding-text{
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    line-height: 76px;
+    letter-spacing: -1.2px;
+}
+.hero-image{
+    width: 574px;
+    height: 437px;
+}
+.heading-paragraph{
+    font-size: 18px;
+    margin-bottom: 32px;
+    color:  #525252;
+    line-height: 28px;
+    
+}
+.hero-wrapper{
+    width: 525px;
+}
+.heading-button{
+    background-color: #1C82FA;
+    border-radius: 16px;
+    width: 196px;
+    height: 60px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+.bg-blue{
+    background-color: #1C82FA;
+}
+.right-to-left{
+    flex-direction: row-reverse;
+}
+.contract-button{
+    background-color: white;
+    color: #1C82FA;
+    width: 152px;
+    height: 60px;
+    border-radius: 8px;
+    
+}
+.about-us-text{
+    color: white;
+}
+.about-us-paragraph{
+    color: white;
+}
+.card-container{
+    display: flex;
+    gap: 32px;
+    margin: 0 140px;
+}
+.card{
+    background-color: #1C82FA;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 42px 30px;
+    gap: 18px;
+    border-radius: 16px;
+    
+}
+.about-us-section{
+    padding: 140px 0;
+}
+.card > button {
+    background-color: white;
+    padding: 0 28px;
+    height: 44px;
+    border-radius: 8px;
+    color: #1C82FA;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    border: none;
+}
+.title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+   margin-bottom: 56px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 140px;
+    background-color: #1C82FA;
+    color: white;
+}
+.first-colum > h2{
+    margin-bottom: 24px;
+}
+.first-colum> p{
+    width: 415px;
+}
+.other-colum > h2{
+    margin-bottom: 16px;
+}
+.other-colum > ul{
+list-style: none;
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
