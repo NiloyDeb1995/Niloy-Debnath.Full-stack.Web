@@ -1,0 +1,50 @@
+/*1st section*/
+.main-container{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(226, 126, 126);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 130px;
+}
+.logo{
+    width: 48px;
+    height: 48px;
+    background-color: black;
+    border-radius: 50%;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+/*2nd section*/
+.second-section{
+    height: 684px;
+    background-color: aqua ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maintext{
+ text-align:;
+}
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.btn-p{
+    padding: 14px 24px;
+    border-radius: 10px;
+    border-style: none;
+    flex-basis: 150px;
+
+}
+.btn-right{
+    background-color: black;
+    color: white;
+}
